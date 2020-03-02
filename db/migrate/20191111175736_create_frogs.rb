@@ -4,6 +4,7 @@ class CreateFrogs < ActiveRecord::Migration[6.0]
       t.string :avatar
       t.integer :lives
       t.string :prize
+      t.string :src
       t.timestamps
     end
   end

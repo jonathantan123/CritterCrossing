@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_11_11_175932) do
     t.string "avatar"
     t.integer "lives"
     t.string "prize"
+    t.string "src"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
